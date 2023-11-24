@@ -13,8 +13,8 @@ use App\Http\Controllers\admin\IndexController;
 |
 */
 
-Route::get('/', function () {
-    return view('admin');
-});
+// Route::get('/', function () {
+//     return view('admin');
+// });
 
-// Route::get('admin/index', [IndexController::class, 'index']);
+Route::get('admin/index', [IndexController::class, 'index']);
